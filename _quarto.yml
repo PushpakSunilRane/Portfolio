@@ -2,11 +2,12 @@ project:
   type: website
   output-dir: docs
 website:
+  title: "Portfolio"
   search: false
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - href: about.qmd
+        text: About
     right: 
       - href: "https://github.com/PushpakSunilRane"
         icon: github
@@ -14,7 +15,7 @@ website:
         icon: linkedin
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
 
