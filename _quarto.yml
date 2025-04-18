@@ -5,9 +5,6 @@ website:
   title: "Portfolio"
   search: false
   navbar:
-    left:
-      - href: about.qmd
-        text: About
     right: 
       - href: "https://github.com/PushpakSunilRane"
         icon: github
