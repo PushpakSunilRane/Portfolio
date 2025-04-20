@@ -13,7 +13,7 @@ format:
 ![](profile.jpg)
 
 ::: contact-info
-[prane1\@csuchico.edu](mailto:prane1@csuchico.edu)\
+[prane1@csuchico.edu](mailto:prane1@csuchico.edu)  
 [LinkedIn](https://linkedin.com/in/pushpak-sunil-rane)
 :::
 ::::
@@ -21,7 +21,7 @@ format:
 ::: intro-text
 # <i class="fas fa-user section-icon"></i> About Me
 
-Data Science graduate student at California State University, Chico with a strong background in Computer Engineering. Currently pursuing Master of Science in Data Science and Analytics with a 3.52 GPA.
+Data Science & Analytics graduate student at California State University, Chico with a strong background in Computer Engineering. Currently pursuing Master of Science in Data Science and Analytics with a 3.52 GPA.
 
 **Professional Summary:** I am an experienced professional with expertise in web development, data analysis, and machine learning. My technical skills span across Python, R, PHP, Java, and various data science tools. I have a strong background in software development and data visualization, coupled with proven leadership experience in student organizations. I am passionate about leveraging data to drive insights and create impactful solutions that make a difference.
 
@@ -29,126 +29,129 @@ Data Science graduate student at California State University, Chico with a stron
 :::
 ::::::
 
-# <i class="fas fa-graduation-cap section-icon"></i> Education
-
-## <i class="fas fa-university"></i> California State University, Chico
-
-**Master of Science in Data Science and Analytics**\
-Expected Graduation: May 2026\
-GPA: 3.52
-
-## <i class="fas fa-university"></i> P.K Technical Campus, Pune
-
-**Bachelor of Engineering in Computer Engineering**\
-Graduated: June 2024\
-CGPA: 8.36
-
-## <i class="fas fa-university"></i> MET Bhujbal Knowledge City, Nashik
-
-**Diploma in Computer Engineering**\
-Graduated: July 2021\
-Percentage: 89.37%
-
+::: {.skills-section}
 # <i class="fas fa-tools section-icon"></i> Technical Skills
 
+::: {.skill-category}
 ## <i class="fas fa-desktop"></i> Software
+- Microsoft Word, Excel, PowerPoint
+- Google Drive
+- RStudio
+- Jupyter
+:::
 
--   <i class="fas fa-file-word"></i> Microsoft Word, Excel, PowerPoint
--   <i class="fab fa-google-drive"></i> Google Drive
--   <i class="fas fa-code"></i> RStudio
--   <i class="fas fa-code"></i> Jupyter
-
+::: {.skill-category}
 ## <i class="fas fa-code"></i> Programming
+- Web Development
+- PHP
+- Python
+- Core Java
+- MySQL
+- C, C++
+- R
+- SQL
+:::
 
--   <i class="fas fa-globe"></i> Web Development
--   <i class="fab fa-php"></i> PHP
--   <i class="fab fa-python"></i> Python
--   <i class="fab fa-java"></i> Core Java
--   <i class="fas fa-database"></i> MySQL
--   <i class="fas fa-c"></i> C, C++
--   <i class="fas fa-r-project"></i> R
--   <i class="fas fa-database"></i> SQL
-
+::: {.skill-category}
 ## <i class="fas fa-chart-bar"></i> Data Science & Analysis
-
--   <i class="fas fa-database"></i> Data collection
--   <i class="fas fa-broom"></i> Data Cleaning
--   <i class="fas fa-cogs"></i> Data pre-processing
--   <i class="fas fa-chart-pie"></i> Data visualization
--   <i class="fas fa-calculator"></i> Statistical analysis
+- Data collection
+- Data Cleaning
+- Data pre-processing
+- Data visualization
+- Statistical analysis
+:::
+:::
 
 # <i class="fas fa-briefcase section-icon"></i> Professional Experience
 
+::: {.experience-item}
 ## <i class="fas fa-building"></i> Kohli Media LLP
 
-**PHP Intern (Interim lead of Web Development)**\
+**PHP Intern (Interim lead of Web Development)**  
 December 2022 – March 2023
 
--   <i class="fas fa-database"></i> Assisted in data collection and analysis for neuromarketing projects
--   <i class="fas fa-chart-line"></i> Conducted preliminary data analysis to identify trends and insights
--   <i class="fas fa-laptop-code"></i> Developed a website to present findings and create reports
+- Assisted in data collection and analysis for neuromarketing projects
+- Conducted preliminary data analysis to identify trends and insights
+- Developed a website to present findings and create reports
+:::
 
+::: {.experience-item}
 ## <i class="fas fa-building"></i> Thinkers Hub Software Development, Nashik
 
-**Web Developer Intern**\
+**Web Developer Intern**  
 June 2020 - August 2020
 
--   <i class="fas fa-code"></i> Developed web applications using HTML, CSS, Bootstrap, and PHP
--   <i class="fas fa-tasks"></i> Created small-scale projects including TO-DO list, Calculator, and Clone webpage
--   <i class="fas fa-paint-brush"></i> Enhanced user interface and experience
+- Developed web applications using HTML, CSS, Bootstrap, and PHP
+- Created small-scale projects including TO-DO list, Calculator, and Clone webpage
+- Enhanced user interface and experience
+:::
 
 # <i class="fas fa-project-diagram section-icon"></i> Projects
 
+::: {.project-item}
 ## <i class="fas fa-shopping-cart"></i> E-commerce Website
 
--   <i class="fas fa-laptop-code"></i> Designed and implemented static webpages for each module
--   <i class="fas fa-search"></i> Utilized SEO best practices to improve site visibility
--   <i class="fas fa-users"></i> Collaborated with stakeholders to deliver a user-friendly interface
+- Designed and implemented static webpages for each module
+- Utilized SEO best practices to improve site visibility
+- Collaborated with stakeholders to deliver a user-friendly interface
+:::
 
+::: {.project-item}
 ## <i class="fas fa-car"></i> Speed Breaker & Lane Detection using Machine Learning
 
--   <i class="fas fa-database"></i> Conducted data collection and pre-processing for machine learning models
--   <i class="fas fa-robot"></i> Trained models to detect speed breakers and lane markings
--   <i class="fas fa-cogs"></i> Integrated solution into autonomous vehicle system
+- Conducted data collection and pre-processing for machine learning models
+- Trained models to detect speed breakers and lane markings
+- Integrated solution into autonomous vehicle system
+:::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
 
+::: {.experience-item}
 ## <i class="fas fa-user-tie"></i> President of Indian Student Association
 
 **Present**
 
--   <i class="fas fa-calendar-alt"></i> Organized cultural, social, and professional events
--   <i class="fas fa-users"></i> Led 7-member executive board
--   <i class="fas fa-star"></i> Managed large-scale events like Holi
+- Organized cultural, social, and professional events
+- Led 7-member executive board
+- Managed large-scale events like Holi
+:::
 
+::: {.experience-item}
 ## <i class="fas fa-handshake"></i> Global Ally at International Education & Global Engagement
 
 **Present**
 
--   <i class="fas fa-user-graduate"></i> Supported international student orientation and mentoring
--   <i class="fas fa-book"></i> Provided guidance on academic resources and campus life
--   <i class="fas fa-globe-americas"></i> Assisted with cultural integration initiatives
+- Supported international student orientation and mentoring
+- Provided guidance on academic resources and campus life
+- Assisted with cultural integration initiatives
+:::
 
+::: {.experience-item}
 ## <i class="fas fa-hands-helping"></i> National Services Scheme
 
 **August 2022 – July 2024**
 
--   <i class="fas fa-calendar-check"></i> Organized and managed community service events
--   <i class="fas fa-comments"></i> Developed public speaking and communication skills
--   <i class="fas fa-tasks"></i> Planned and executed successful events
+- Organized and managed community service events
+- Developed public speaking and communication skills
+- Planned and executed successful events
+:::
 
+::: {.experience-item}
 ## <i class="fas fa-users-cog"></i> Committee Member of Skill & Progressive Association
 
 **November 2018 – May 2021**
 
--   <i class="fas fa-calendar-alt"></i> Managed and hosted events
--   <i class="fas fa-users"></i> Coordinated team activities
--   <i class="fas fa-microphone"></i> Enhanced public speaking abilities
+- Managed and hosted events
+- Coordinated team activities
+- Enhanced public speaking abilities
+:::
 
+::: {.experience-item}
 ## <i class="fas fa-user-shield"></i> Leadership Club Head
 
 **July 2023 – June 2024**
 
--   <i class="fas fa-users"></i> Led team of 10 members
--   <i class="fas fa-chalkboard-teacher"></i> Organized leadership workshops
--   <i class="fas fa-bullhorn"></i> Developed club engagement strategies
+- Led team of 10 members
+- Organized leadership workshops
+- Developed club engagement strategies
+:::
