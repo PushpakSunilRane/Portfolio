@@ -13,8 +13,7 @@ format:
 ![](profile.jpg)
 
 ::: contact-info
-[prane1\@csuchico.edu](mailto:prane1@csuchico.edu)\
-[LinkedIn](https://linkedin.com/in/pushpak-sunil-rane)
+<a href="mailto:prane1@csuchico.edu" title="Email"><i class="fas fa-envelope"></i></a> <a href="https://linkedin.com/in/pushpak-sunil-rane" title="LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/PushpakSunilRane" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 ::::
 
@@ -39,6 +38,7 @@ Data Science & Analytics graduate student at California State University, Chico 
 -   Google Drive
 -   RStudio
 -   Jupyter
+-   PowerBI
 :::
 
 ::: skill-category
