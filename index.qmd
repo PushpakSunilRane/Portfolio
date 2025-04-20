@@ -13,7 +13,7 @@ format:
 ![](profile.jpg)
 
 ::: contact-info
-[prane1@csuchico.edu](mailto:prane1@csuchico.edu)  
+[prane1\@csuchico.edu](mailto:prane1@csuchico.edu)\
 [LinkedIn](https://linkedin.com/in/pushpak-sunil-rane)
 :::
 ::::
@@ -29,129 +29,132 @@ Data Science & Analytics graduate student at California State University, Chico 
 :::
 ::::::
 
-::: {.skills-section}
+:::::: skills-section
 # <i class="fas fa-tools section-icon"></i> Technical Skills
 
-::: {.skill-category}
+::: skill-category
 ## <i class="fas fa-desktop"></i> Software
-- Microsoft Word, Excel, PowerPoint
-- Google Drive
-- RStudio
-- Jupyter
+
+-   Microsoft Word, Excel, PowerPoint
+-   Google Drive
+-   RStudio
+-   Jupyter
 :::
 
-::: {.skill-category}
+::: skill-category
 ## <i class="fas fa-code"></i> Programming
-- Web Development
-- PHP
-- Python
-- Core Java
-- MySQL
-- C, C++
-- R
-- SQL
+
+-   Web Development
+-   PHP
+-   Python
+-   Core Java
+-   MySQL
+-   C, C++
+-   R
+-   SQL
 :::
 
-::: {.skill-category}
+::: skill-category
 ## <i class="fas fa-chart-bar"></i> Data Science & Analysis
-- Data collection
-- Data Cleaning
-- Data pre-processing
-- Data visualization
-- Statistical analysis
+
+-   Data collection
+-   Data Cleaning
+-   Data pre-processing
+-   Data visualization
+-   Statistical analysis
 :::
-:::
+::::::
 
 # <i class="fas fa-briefcase section-icon"></i> Professional Experience
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-building"></i> Kohli Media LLP
 
-**PHP Intern (Interim lead of Web Development)**  
+**PHP Intern (Interim lead of Web Development)**\
 December 2022 – March 2023
 
-- Assisted in data collection and analysis for neuromarketing projects
-- Conducted preliminary data analysis to identify trends and insights
-- Developed a website to present findings and create reports
+-   Assisted in data collection and analysis for neuromarketing projects
+-   Conducted preliminary data analysis to identify trends and insights
+-   Developed a website to present findings and create reports
 :::
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-building"></i> Thinkers Hub Software Development, Nashik
 
-**Web Developer Intern**  
+**Web Developer Intern**\
 June 2020 - August 2020
 
-- Developed web applications using HTML, CSS, Bootstrap, and PHP
-- Created small-scale projects including TO-DO list, Calculator, and Clone webpage
-- Enhanced user interface and experience
+-   Developed web applications using HTML, CSS, Bootstrap, and PHP
+-   Created small-scale projects including TO-DO list, Calculator, and Clone webpage
+-   Enhanced user interface and experience
 :::
 
 # <i class="fas fa-project-diagram section-icon"></i> Projects
 
-::: {.project-item}
+::: project-item
 ## <i class="fas fa-shopping-cart"></i> E-commerce Website
 
-- Designed and implemented static webpages for each module
-- Utilized SEO best practices to improve site visibility
-- Collaborated with stakeholders to deliver a user-friendly interface
+-   Designed and implemented static webpages for each module
+-   Utilized SEO best practices to improve site visibility
+-   Collaborated with stakeholders to deliver a user-friendly interface
 :::
 
-::: {.project-item}
+::: project-item
 ## <i class="fas fa-car"></i> Speed Breaker & Lane Detection using Machine Learning
 
-- Conducted data collection and pre-processing for machine learning models
-- Trained models to detect speed breakers and lane markings
-- Integrated solution into autonomous vehicle system
+-   Conducted data collection and pre-processing for machine learning models
+-   Trained models to detect speed breakers and lane markings
+-   Integrated solution into autonomous vehicle system
 :::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-user-tie"></i> President of Indian Student Association
 
 **Present**
 
-- Organized cultural, social, and professional events
-- Led 7-member executive board
-- Managed large-scale events like Holi
+-   Organized cultural, social, and professional events
+-   Led 7-member executive board
+-   Managed large-scale events like Holi
 :::
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-handshake"></i> Global Ally at International Education & Global Engagement
 
 **Present**
 
-- Supported international student orientation and mentoring
-- Provided guidance on academic resources and campus life
-- Assisted with cultural integration initiatives
+-   Supported international student orientation and mentoring
+-   Provided guidance on academic resources and campus life
+-   Assisted with cultural integration initiatives
 :::
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-hands-helping"></i> National Services Scheme
 
 **August 2022 – July 2024**
 
-- Organized and managed community service events
-- Developed public speaking and communication skills
-- Planned and executed successful events
+-   Organized and managed community service events
+-   Developed public speaking and communication skills
+-   Planned and executed successful events
 :::
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-users-cog"></i> Committee Member of Skill & Progressive Association
 
 **November 2018 – May 2021**
 
-- Managed and hosted events
-- Coordinated team activities
-- Enhanced public speaking abilities
+-   Managed and hosted events
+-   Coordinated team activities
+-   Enhanced public speaking abilities
 :::
 
-::: {.experience-item}
+::: experience-item
 ## <i class="fas fa-user-shield"></i> Leadership Club Head
 
 **July 2023 – June 2024**
 
-- Led team of 10 members
-- Organized leadership workshops
-- Developed club engagement strategies
+-   Led team of 10 members
+-   Organized leadership workshops
+-   Developed club engagement strategies
 :::

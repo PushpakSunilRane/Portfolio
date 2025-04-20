@@ -1,34 +1,48 @@
 /* css styles */
 
-/* Import Font Awesome */
+/* Import Font Awesome and Google Fonts */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Global Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #e0e0e0;
-    background-color: #1a1a1a;
+    color: #333;
+    background-color: #f8f9fa;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0;
 }
 
 /* Header Styles */
 h1 {
-    color: #ffffff;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
+    color: #2c3e50;
+    font-weight: 700;
     margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #3498db;
 }
 
 h2 {
-    color: #ffffff;
+    color: #2c3e50;
+    font-weight: 600;
     margin-top: 30px;
 }
 
 h3 {
     color: #3498db;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -64,110 +78,95 @@ img[alt="Profile Photo"]:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Section Styles */
-section {
-    margin-bottom: 40px;
-    background-color: #2d2d2d;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/* Introduction Section */
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 40px;
+    border-radius: 15px;
+    margin: 40px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-/* List Styles */
-ul {
-    list-style-type: none;
-    padding-left: 0;
+.intro-container:hover {
+    transform: translateY(-5px);
 }
 
-ul li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
-    color: #e0e0e0;
+.profile-section {
+    flex: 0 0 250px;
+    text-align: center;
 }
 
-ul li:before {
-    content: "•";
-    color: #3498db;
-    position: absolute;
-    left: 0;
+.profile-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
-/* Link Styles */
-a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #2980b9;
-    text-decoration: underline;
-}
-
-/* Custom Icons */
-.linkedin-icon {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/017/339/624/original/linkedin-icon-free-png.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-.email-icon {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-image: url('https://clipartcraft.com/images/outlook-logo-transparent-7.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    margin-right: 8px;
+.profile-section img:hover {
+    transform: scale(1.05);
 }
 
 /* Contact Information */
 .contact-info {
-    margin-top: 15px;
-    font-size: 0.9em;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .contact-info a {
     color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease;
-    display: inline-block;
-    margin: 5px 0;
-    line-height: 24px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 25px;
+    background: rgba(52, 152, 219, 0.1);
 }
 
 .contact-info a:hover {
-    color: #2980b9;
-    text-decoration: none;
+    background: #3498db;
+    color: white;
+    transform: translateX(5px);
 }
 
-.contact-info i {
-    margin-right: 8px;
-    width: 20px;
-    text-align: center;
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
 }
 
-/* Section Icons */
-.section-icon {
-    margin-right: 10px;
-    color: #3498db;
+section:hover {
+    transform: translateY(-3px);
 }
 
-/* Education Section */
-.education-item {
+/* Project Cards */
+.project-item {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    border-left: 3px solid #3498db;
-    background-color: #2d2d2d;
-    padding: 15px;
-    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border-left: 4px solid #3498db;
+}
+
+.project-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Skills Section */
@@ -178,93 +177,110 @@ a:hover {
 }
 
 .skill-category {
-    background-color: #2d2d2d;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
 }
 
 /* Experience Section */
 .experience-item {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #444;
-    background-color: #2d2d2d;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.experience-item:last-child {
-    border-bottom: none;
-}
-
-/* Experience Icons */
-.experience-item i {
-    color: #3498db;
-    margin-right: 8px;
-}
-
-/* Project Section */
-.project-item {
-    background-color: #2d2d2d;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 25px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
 }
 
-/* Project Icons */
-.project-item i {
+.experience-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons */
+.section-icon {
     color: #3498db;
-    margin-right: 8px;
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
-/* Leadership Section */
-.leadership-item {
-    margin-bottom: 20px;
-    background-color: #2d2d2d;
-    padding: 15px;
-    border-radius: 5px;
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-/* Leadership Icons */
-.leadership-item i {
+ul li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+}
+
+ul li:before {
+    content: "•";
     color: #3498db;
-    margin-right: 8px;
-}
-
-/* Introduction Section */
-.intro-container {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background-color: #2d2d2d;
-    padding: 30px;
-    border-radius: 8px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.profile-section {
-    flex: 0 0 200px;
-    text-align: center;
-}
-
-.intro-text {
-    flex: 1;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    body {
-        padding: 10px;
+    .intro-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-section {
+        flex: 0 0 auto;
     }
     
     .skills-section {
         grid-template-columns: 1fr;
     }
     
-    img {
-        margin: 10px 0;
+    section {
+        padding: 20px;
     }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3498db;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2980b9;
 }
