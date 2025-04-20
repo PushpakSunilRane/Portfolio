@@ -3,9 +3,10 @@ title: "Pushpak Sunil Rane"
 format: 
   html:
     theme: cosmo
-    toc: true
+    toc: false
     toc-depth: 2
     css: docs/styles.css
+    navbar: false
 ---
 
 :::::: intro-container
