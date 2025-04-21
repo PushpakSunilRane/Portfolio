@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #2c3e50;
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -22,6 +22,9 @@ h1 {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 15px;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1:after {
@@ -31,17 +34,20 @@ h1:after {
     left: 0;
     width: 50px;
     height: 3px;
-    background: #3498db;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
 }
 
 h2 {
     color: #2c3e50;
     font-weight: 600;
     margin-top: 30px;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3 {
-    color: #3498db;
+    color: #ff4d4d;
     font-weight: 500;
     margin-top: 20px;
 }
@@ -51,11 +57,12 @@ h3 {
     display: flex;
     align-items: center;
     gap: 40px;
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
     padding: 40px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(255, 77, 77, 0.1);
+    border: 1px solid rgba(255, 77, 77, 0.1);
 }
 
 .profile-section {
@@ -67,13 +74,14 @@ h3 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #3498db;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 5px solid #ff4d4d;
+    box-shadow: 0 10px 20px rgba(255, 77, 77, 0.2);
     transition: transform 0.3s ease;
 }
 
 .profile-section img:hover {
     transform: scale(1.05);
+    border-color: #ff6b6b;
 }
 
 .contact-info {
@@ -84,26 +92,29 @@ h3 {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #2c3e50;
-    transition: color 0.3s ease;
+    color: #ff4d4d;
+    transition: all 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #3498db;
+    color: #ff6b6b;
+    transform: translateY(-3px);
 }
 
 /* Section Styles */
 section {
-    background: #ffffff;
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 77, 77, 0.1);
 }
 
 section:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
 }
 
 /* Skills Section */
@@ -114,41 +125,50 @@ section:hover {
 }
 
 .skill-category {
-    background: #ffffff;
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    border: 1px solid rgba(255, 77, 77, 0.1);
 }
 
 .skill-category h3 {
-    color: #3498db;
+    color: #ff4d4d;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #ff4d4d;
 }
 
 /* Experience Section */
 .experience-item {
-    background: #ffffff;
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    border-left: 4px solid #3498db;
+    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    border-left: 4px solid #ff4d4d;
+    transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+    border-left: 4px solid #ff6b6b;
+    transform: translateX(5px);
 }
 
 /* Project Section */
 .project-item {
-    background: #ffffff;
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 77, 77, 0.1);
 }
 
 .project-item:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
 }
 
 /* List Styles */
@@ -165,7 +185,7 @@ ul li {
 
 ul li:before {
     content: '•';
-    color: #3498db;
+    color: #ff4d4d;
     position: absolute;
     left: 0;
     font-size: 20px;
@@ -173,7 +193,7 @@ ul li:before {
 
 /* Section Icons */
 .section-icon {
-    color: #3498db;
+    color: #ff4d4d;
     margin-right: 10px;
     font-size: 24px;
 }
@@ -208,4 +228,23 @@ ul li:before {
 
 section {
     animation: fadeIn 0.6s ease-out;
+}
+
+/* Additional Gradient Effects */
+.section-icon {
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience-item h3 {
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-item h3 {
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
