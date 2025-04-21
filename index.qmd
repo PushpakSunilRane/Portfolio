@@ -129,7 +129,7 @@ A comprehensive data visualization project that:
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
 
-::: leadership-item
+::: experience-item
 ## <i class="fas fa-user-tie"></i> President of Indian Student Association
 
 **Present**
@@ -139,7 +139,7 @@ A comprehensive data visualization project that:
 - Managed large-scale events like Holi
 :::
 
-::: leadership-item
+::: experience-item
 ## <i class="fas fa-handshake"></i> Global Ally at International Education & Global Engagement
 
 **Present**
@@ -149,7 +149,7 @@ A comprehensive data visualization project that:
 - Assisted with cultural integration initiatives
 :::
 
-::: leadership-item
+::: experience-item
 ## <i class="fas fa-hands-helping"></i> National Services Scheme
 
 **August 2022 – July 2024**
@@ -159,7 +159,7 @@ A comprehensive data visualization project that:
 - Planned and executed successful events
 :::
 
-::: leadership-item
+::: experience-item
 ## <i class="fas fa-users-cog"></i> Committee Member of Skill & Progressive Association
 
 **November 2018 – May 2021**
@@ -169,7 +169,7 @@ A comprehensive data visualization project that:
 - Enhanced public speaking abilities
 :::
 
-::: leadership-item
+::: experience-item
 ## <i class="fas fa-user-shield"></i> Leadership Club Head
 
 **July 2023 – June 2024**
