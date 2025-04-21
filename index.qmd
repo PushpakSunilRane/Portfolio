@@ -72,12 +72,13 @@ Data Science & Analytics graduate student at California State University, Chico 
 ::: experience-item
 ## <i class="fas fa-building"></i> Kohli Media LLP
 
-**PHP Intern (Interim lead of Web Development)**\
+**Interim Lead (Web Development Department)**\
 December 2022 – March 2023
 
-- Assisted in data collection and analysis for neuromarketing projects
-- Conducted preliminary data analysis to identify trends and insights
-- Developed a website to present findings and create reports
+- Developed a website for neuromarketing projects by gathering data and requirements from stakeholders, ensuring the platform met user needs and project goals
+- Enhanced a publication website's web application by significantly improving loading speed and design, resulting in a better user experience
+- Acquired leadership and time management skills by effectively working as a team lead, coordinating tasks and guiding team members
+- Gained hands-on experience in project management, overseeing project timelines, and ensuring successful team collaboration
 :::
 
 ::: experience-item
