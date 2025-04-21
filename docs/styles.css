@@ -4,11 +4,21 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+/* Color Variables */
+:root {
+    --primary-color: #ff4d4d;
+    --primary-light: #ff6b6b;
+    --primary-lighter: #ff8c8c;
+    --background-light: #fff5f5;
+    --text-dark: #2c3e50;
+    --shadow-color: rgba(255, 77, 77, 0.1);
+}
+
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #2c3e50;
+    color: var(--text-dark);
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%);
     max-width: 1200px;
     margin: 0 auto;
@@ -17,7 +27,7 @@ body {
 
 /* Header Styles */
 h1 {
-    color: #2c3e50;
+    color: var(--text-dark);
     font-weight: 700;
     margin-bottom: 20px;
     position: relative;
@@ -31,17 +41,17 @@ h1:after {
     left: 0;
     width: 50px;
     height: 3px;
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: var(--primary-color);
 }
 
 h2 {
-    color: #2c3e50;
+    color: var(--text-dark);
     font-weight: 600;
     margin-top: 30px;
 }
 
 h3 {
-    color: #ff4d4d;
+    color: var(--primary-color);
     font-weight: 500;
     margin-top: 20px;
 }
@@ -51,12 +61,12 @@ h3 {
     display: flex;
     align-items: center;
     gap: 40px;
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: #ffffff;
     padding: 40px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(255, 77, 77, 0.1);
-    border: 1px solid rgba(255, 77, 77, 0.1);
+    box-shadow: 0 10px 30px var(--shadow-color);
+    border: 1px solid var(--shadow-color);
 }
 
 .profile-section {
@@ -68,14 +78,14 @@ h3 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #ff4d4d;
-    box-shadow: 0 10px 20px rgba(255, 77, 77, 0.2);
-    transition: transform 0.3s ease;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 10px 20px var(--shadow-color);
+    transition: all 0.3s ease;
 }
 
 .profile-section img:hover {
     transform: scale(1.05);
-    border-color: #ff6b6b;
+    border-color: var(--primary-light);
 }
 
 .contact-info {
@@ -86,12 +96,12 @@ h3 {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #ff4d4d;
+    color: var(--primary-color);
     transition: all 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #ff6b6b;
+    color: var(--primary-light);
     transform: translateY(-3px);
 }
 
@@ -101,14 +111,14 @@ section {
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    box-shadow: 0 5px 15px var(--shadow-color);
     transition: all 0.3s ease;
-    border: 1px solid rgba(255, 77, 77, 0.1);
+    border: 1px solid var(--shadow-color);
 }
 
 section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
+    box-shadow: 0 8px 20px var(--shadow-color);
 }
 
 /* Skills Section */
@@ -122,15 +132,15 @@ section:hover {
     background: #ffffff;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
-    border: 1px solid rgba(255, 77, 77, 0.1);
+    box-shadow: 0 5px 15px var(--shadow-color);
+    border: 1px solid var(--shadow-color);
 }
 
 .skill-category h3 {
-    color: #ff4d4d;
+    color: var(--primary-color);
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #ff4d4d;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 /* Experience Section */
@@ -139,14 +149,14 @@ section:hover {
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
-    border-left: 4px solid #ff4d4d;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
 }
 
 .experience-item:hover {
     transform: translateX(5px);
-    border-left: 4px solid #ff6b6b;
+    border-left: 4px solid var(--primary-light);
 }
 
 /* Project Section */
@@ -155,14 +165,14 @@ section:hover {
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
+    box-shadow: 0 5px 15px var(--shadow-color);
     transition: all 0.3s ease;
-    border: 1px solid rgba(255, 77, 77, 0.1);
+    border: 1px solid var(--shadow-color);
 }
 
 .project-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
+    box-shadow: 0 8px 20px var(--shadow-color);
 }
 
 /* List Styles */
@@ -179,7 +189,7 @@ ul li {
 
 ul li:before {
     content: '•';
-    color: #ff4d4d;
+    color: var(--primary-color);
     position: absolute;
     left: 0;
     font-size: 20px;
@@ -187,7 +197,7 @@ ul li:before {
 
 /* Section Icons */
 .section-icon {
-    color: #ff4d4d;
+    color: var(--primary-color);
     margin-right: 10px;
     font-size: 24px;
 }
