@@ -75,10 +75,10 @@ Data Science & Analytics graduate student at California State University, Chico 
 **Interim Lead (Web Development Department)**\
 December 2022 – March 2023
 
-- Developed a website for neuromarketing projects by gathering data and requirements from stakeholders, ensuring the platform met user needs and project goals
-- Enhanced a publication website's web application by significantly improving loading speed and design, resulting in a better user experience
-- Acquired leadership and time management skills by effectively working as a team lead, coordinating tasks and guiding team members
-- Gained hands-on experience in project management, overseeing project timelines, and ensuring successful team collaboration
+- Developed a website for neuromarketing projects by gathering data and requirements from stakeholders, ensuring the platform met user needs and project goals.
+- Enhanced a publication website's web application by significantly improving loading speed and design, resulting in a better user experience.
+- Acquired leadership and time management skills by effectively working as a team lead, coordinating tasks and guiding team members.
+- Gained hands-on experience in project management, overseeing project timelines, and ensuring successful team collaboration.
 :::
 
 ::: experience-item
