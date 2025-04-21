@@ -13,9 +13,7 @@ format:
 ![](profile.jpg)
 
 ::: contact-info
-<a href="mailto:prane1@csuchico.edu" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://linkedin.com/in/pushpak-sunil-rane" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/PushpakSunilRane" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="mailto:prane1@csuchico.edu" title="Email"><i class="fas fa-envelope"></i></a> <a href="https://linkedin.com/in/pushpak-sunil-rane" title="LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/PushpakSunilRane" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 ::::
 
@@ -36,34 +34,34 @@ Data Science & Analytics graduate student at California State University, Chico 
 ::: skill-category
 ## <i class="fas fa-desktop"></i> Software
 
-- Microsoft Word, Excel, PowerPoint
-- Google Drive
-- RStudio
-- Jupyter
-- PowerBI
+-   Microsoft Word, Excel, PowerPoint
+-   Google Drive
+-   RStudio
+-   Jupyter
+-   PowerBI
 :::
 
 ::: skill-category
 ## <i class="fas fa-code"></i> Programming
 
-- Web Development
-- PHP
-- Python
-- Core Java
-- MySQL
-- C, C++
-- R
-- SQL
+-   Web Development
+-   PHP
+-   Python
+-   Core Java
+-   MySQL
+-   C, C++
+-   R
+-   SQL
 :::
 
 ::: skill-category
 ## <i class="fas fa-chart-bar"></i> Data Science & Analysis
 
-- Data collection
-- Data Cleaning
-- Data pre-processing
-- Data visualization
-- Statistical analysis
+-   Data collection
+-   Data Cleaning
+-   Data pre-processing
+-   Data visualization
+-   Statistical analysis
 :::
 ::::::
 
@@ -75,9 +73,9 @@ Data Science & Analytics graduate student at California State University, Chico 
 **PHP Intern (Interim lead of Web Development)**\
 December 2022 – March 2023
 
-- Assisted in data collection and analysis for neuromarketing projects
-- Conducted preliminary data analysis to identify trends and insights
-- Developed a website to present findings and create reports
+-   Assisted in data collection and analysis for neuromarketing projects
+-   Conducted preliminary data analysis to identify trends and insights
+-   Developed a website to present findings and create reports
 :::
 
 ::: experience-item
@@ -86,9 +84,9 @@ December 2022 – March 2023
 **Web Developer Intern**\
 June 2020 - August 2020
 
-- Developed web applications using HTML, CSS, Bootstrap, and PHP
-- Created small-scale projects including TO-DO list, Calculator, and Clone webpage
-- Enhanced user interface and experience
+-   Developed web applications using HTML, CSS, Bootstrap, and PHP
+-   Created small-scale projects including TO-DO list, Calculator, and Clone webpage
+-   Enhanced user interface and experience
 :::
 
 # <i class="fas fa-project-diagram section-icon"></i> Projects
@@ -98,38 +96,43 @@ June 2020 - August 2020
 
 A comprehensive data analysis project examining global health and economic correlations:
 
-- **Project Objective**: Examines the relationship between child nutrition status and economic indicators in global regions, focusing on how economic factors influence adolescent nutrition outcomes.
+-   **Project Objective**: Examines the relationship between child nutrition status and economic indicators in global regions, focusing on how economic factors influence adolescent nutrition outcomes.
 
-- **Research Methodology**:
-  - Utilized datasets from UNICEF, WHO, and World Bank
-  - Implemented comprehensive data analysis techniques
-  - Applied statistical modeling for correlation analysis
-  - Ensured data integrity and validation
+-   **Research Methodology**:
 
-- **Key Variables Analyzed**:
-  - Child nutrition status indicators
-  - Undernourishment levels
-  - Population living below $1.90 per day threshold
-  - Regional economic indicators
+    -   Utilized datasets from UNICEF, WHO, and World Bank
+    -   Implemented comprehensive data analysis techniques
+    -   Applied statistical modeling for correlation analysis
+    -   Ensured data integrity and validation
 
-- **Findings & Analysis**:
-  - Identified strong positive correlation (0.85) between undernourishment and poverty
-  - Analyzed regional variations in nutrition outcomes
-  - Evaluated economic impact on child health
-  - Documented key patterns and trends
+-   **Key Variables Analyzed**:
 
-- **Impact & Recommendations**:
-  - Highlighted importance of economic development
-  - Identified need for policy interventions
-  - Suggested targeted approaches for vulnerable populations
-  - Provided framework for future research
+    -   Child nutrition status indicators
+    -   Undernourishment levels
+    -   Population living below \$1.90 per day threshold
+    -   Regional economic indicators
 
-- **Skills Applied**:
-  - Advanced data analysis
-  - Statistical modeling
-  - Research methodology
-  - Data visualization
-  - Report writing
+-   **Findings & Analysis**:
+
+    -   Identified strong positive correlation (0.85) between undernourishment and poverty
+    -   Analyzed regional variations in nutrition outcomes
+    -   Evaluated economic impact on child health
+    -   Documented key patterns and trends
+
+-   **Impact & Recommendations**:
+
+    -   Highlighted importance of economic development
+    -   Identified need for policy interventions
+    -   Suggested targeted approaches for vulnerable populations
+    -   Provided framework for future research
+
+-   **Skills Applied**:
+
+    -   Advanced data analysis
+    -   Statistical modeling
+    -   Research methodology
+    -   Data visualization
+    -   Report writing
 :::
 
 ::: project-item
@@ -137,33 +140,37 @@ A comprehensive data analysis project examining global health and economic corre
 
 A comprehensive system developed to enhance autonomous vehicle capabilities:
 
-- **Project Overview**: Developed a comprehensive Lane Detection and Speed Breaker Warning System aimed at enhancing the capabilities of autonomous vehicles using advanced machine learning algorithms.
+-   **Project Overview**: Developed a comprehensive Lane Detection and Speed Breaker Warning System aimed at enhancing the capabilities of autonomous vehicles using advanced machine learning algorithms.
 
-- **Technical Implementation**:
-  - Utilized convolutional neural networks (CNNs) for lane detection
-  - Implemented machine learning model for speed breaker detection
-  - Developed real-time camera input analysis system
-  - Created proactive vehicle adjustment mechanisms
+-   **Technical Implementation**:
 
-- **Key Features**:
-  - Lane boundary identification and tracking
-  - Speed breaker detection across various types and conditions
-  - Automated warning system for detected obstacles
-  - Dynamic vehicle speed and suspension adjustment
-  - Real-time processing and response system
+    -   Utilized convolutional neural networks (CNNs) for lane detection
+    -   Implemented machine learning model for speed breaker detection
+    -   Developed real-time camera input analysis system
+    -   Created proactive vehicle adjustment mechanisms
 
-- **Achievements**:
-  - Successfully conducted extensive simulations and real-world testing
-  - Achieved significant improvements in lane-keeping accuracy
-  - Enhanced responsiveness to speed breakers
-  - Contributed to overall safety and reliability of autonomous vehicles
-  - Improved handling of diverse road conditions
+-   **Key Features**:
 
-- **Impact**:
-  - Enhanced autonomous vehicle safety
-  - Improved road condition adaptability
-  - Advanced machine learning implementation
-  - Practical real-world application
+    -   Lane boundary identification and tracking
+    -   Speed breaker detection across various types and conditions
+    -   Automated warning system for detected obstacles
+    -   Dynamic vehicle speed and suspension adjustment
+    -   Real-time processing and response system
+
+-   **Achievements**:
+
+    -   Successfully conducted extensive simulations and real-world testing
+    -   Achieved significant improvements in lane-keeping accuracy
+    -   Enhanced responsiveness to speed breakers
+    -   Contributed to overall safety and reliability of autonomous vehicles
+    -   Improved handling of diverse road conditions
+
+-   **Impact**:
+
+    -   Enhanced autonomous vehicle safety
+    -   Improved road condition adaptability
+    -   Advanced machine learning implementation
+    -   Practical real-world application
 :::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
@@ -173,9 +180,9 @@ A comprehensive system developed to enhance autonomous vehicle capabilities:
 
 **Present**
 
-- Organized cultural, social, and professional events
-- Led 7-member executive board
-- Managed large-scale events like Holi
+-   Organized cultural, social, and professional events
+-   Led 7-member executive board
+-   Managed large-scale events like Holi
 :::
 
 ::: experience-item
@@ -183,9 +190,9 @@ A comprehensive system developed to enhance autonomous vehicle capabilities:
 
 **Present**
 
-- Supported international student orientation and mentoring
-- Provided guidance on academic resources and campus life
-- Assisted with cultural integration initiatives
+-   Supported international student orientation and mentoring
+-   Provided guidance on academic resources and campus life
+-   Assisted with cultural integration initiatives
 :::
 
 ::: experience-item
@@ -193,9 +200,9 @@ A comprehensive system developed to enhance autonomous vehicle capabilities:
 
 **August 2022 – July 2024**
 
-- Organized and managed community service events
-- Developed public speaking and communication skills
-- Planned and executed successful events
+-   Organized and managed community service events
+-   Developed public speaking and communication skills
+-   Planned and executed successful events
 :::
 
 ::: experience-item
@@ -203,9 +210,9 @@ A comprehensive system developed to enhance autonomous vehicle capabilities:
 
 **November 2018 – May 2021**
 
-- Managed and hosted events
-- Coordinated team activities
-- Enhanced public speaking abilities
+-   Managed and hosted events
+-   Coordinated team activities
+-   Enhanced public speaking abilities
 :::
 
 ::: experience-item
@@ -213,7 +220,7 @@ A comprehensive system developed to enhance autonomous vehicle capabilities:
 
 **July 2023 – June 2024**
 
-- Led team of 10 members
-- Organized leadership workshops
-- Developed club engagement strategies
+-   Led team of 10 members
+-   Organized leadership workshops
+-   Developed club engagement strategies
 :::

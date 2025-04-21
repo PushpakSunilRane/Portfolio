@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Pushpak Sunil Rane",
     "section": "",
-    "text": "Data Science & Analytics graduate student at California State University, Chico with a strong background in Computer Engineering. Currently pursuing Master of Science in Data Science and Analytics with a 3.52 GPA.\nProfessional Summary: I am an experienced professional with expertise in web development, data analysis, and machine learning. My technical skills span across Python, R, PHP, Java, and various data science tools. I have a strong background in software development and data visualization, coupled with proven leadership experience in student organizations. I am passionate about leveraging data to drive insights and create impactful solutions that make a difference.\nKey Achievements: I have successfully led web development projects at Kohli Media LLP with 10 members, where I contributed to the company’s digital presence. My work in machine learning includes developing models for autonomous vehicles, specifically focusing on speed breaker and lane detection. As the President of the Indian Student Association, I have demonstrated strong leadership skills, and my role as a Global Ally at International Education & Global Engagement has allowed me to support and mentor international students."
+    "text": "Data Science & Analytics graduate student at California State University, Chico with a strong background in Computer Engineering. Currently pursuing Master of Science in Data Science and Analytics with a 3.52 GPA.\nProfessional Summary: I am an experienced professional with expertise in web development, data analysis, and machine learning. My technical skills span across Python, R, PHP, Java, and various data science tools. I have a strong background in software development and data visualization, coupled with proven leadership experience in student organizations. I am passionate about leveraging data to drive insights and create impactful solutions that make a difference.\nKey Achievements: I have successfully led web development projects at Kohli Media LLP with 6 members, where I contributed to the company’s digital presence. My work in machine learning includes developing models for autonomous vehicles, specifically focusing on speed breaker and lane detection. As the President of the Indian Student Association, I have demonstrated strong leadership skills, and my role as a Global Ally at International Education & Global Engagement has allowed me to support and mentor international students."
   },
   {
     "objectID": "index.html#software",
@@ -42,25 +42,18 @@
     "text": "Thinkers Hub Software Development, Nashik\nWeb Developer Intern\nJune 2020 - August 2020\n\nDeveloped web applications using HTML, CSS, Bootstrap, and PHP\nCreated small-scale projects including TO-DO list, Calculator, and Clone webpage\nEnhanced user interface and experience"
   },
   {
-    "objectID": "index.html#e-commerce-website",
-    "href": "index.html#e-commerce-website",
+    "objectID": "index.html#the-relationship-between-child-nutrition-status-and-economic-indicators-in-global-regions",
+    "href": "index.html#the-relationship-between-child-nutrition-status-and-economic-indicators-in-global-regions",
     "title": "Pushpak Sunil Rane",
-    "section": " E-commerce Website",
-    "text": "E-commerce Website\nA full-stack e-commerce platform developed using PHP, MySQL, HTML, CSS, and Bootstrap. The project features: - User authentication and profile management - Product catalog with search and filtering - Shopping cart functionality - Order processing and tracking - Admin dashboard for inventory management - Responsive design for mobile and desktop users"
+    "section": " The Relationship between Child Nutrition Status and Economic Indicators in Global Regions",
+    "text": "The Relationship between Child Nutrition Status and Economic Indicators in Global Regions\nA comprehensive data analysis project examining global health and economic correlations:\n\nProject Objective: Examines the relationship between child nutrition status and economic indicators in global regions, focusing on how economic factors influence adolescent nutrition outcomes.\nResearch Methodology:\n\nUtilized datasets from UNICEF, WHO, and World Bank\nImplemented comprehensive data analysis techniques\nApplied statistical modeling for correlation analysis\nEnsured data integrity and validation\n\nKey Variables Analyzed:\n\nChild nutrition status indicators\nUndernourishment levels\nPopulation living below $1.90 per day threshold\nRegional economic indicators\n\nFindings & Analysis:\n\nIdentified strong positive correlation (0.85) between undernourishment and poverty\nAnalyzed regional variations in nutrition outcomes\nEvaluated economic impact on child health\nDocumented key patterns and trends\n\nImpact & Recommendations:\n\nHighlighted importance of economic development\nIdentified need for policy interventions\nSuggested targeted approaches for vulnerable populations\nProvided framework for future research\n\nSkills Applied:\n\nAdvanced data analysis\nStatistical modeling\nResearch methodology\nData visualization\nReport writing"
   },
   {
-    "objectID": "index.html#speed-breaker-lane-detection-using-machine-learning",
-    "href": "index.html#speed-breaker-lane-detection-using-machine-learning",
+    "objectID": "index.html#detection-of-lane-and-speed-breaker-warning-system-for-autonomous-vehicles-using-machine-learning-algorithm",
+    "href": "index.html#detection-of-lane-and-speed-breaker-warning-system-for-autonomous-vehicles-using-machine-learning-algorithm",
     "title": "Pushpak Sunil Rane",
-    "section": " Speed Breaker & Lane Detection using Machine Learning",
-    "text": "Speed Breaker & Lane Detection using Machine Learning\nAn advanced computer vision project for autonomous vehicles that: - Utilizes OpenCV and TensorFlow for real-time detection - Implements YOLO (You Only Look Once) algorithm for object detection - Processes video feeds to identify speed breakers and lane markings - Achieved 92% accuracy in speed breaker detection - Integrated with vehicle control systems for automated speed adjustment"
-  },
-  {
-    "objectID": "index.html#data-analysis-dashboard",
-    "href": "index.html#data-analysis-dashboard",
-    "title": "Pushpak Sunil Rane",
-    "section": " Data Analysis Dashboard",
-    "text": "Data Analysis Dashboard\nA comprehensive data visualization project that: - Analyzes and visualizes large datasets using Python and R - Implements interactive dashboards using Tableau - Performs statistical analysis and predictive modeling - Generates automated reports and insights - Features real-time data updates and custom filtering options"
+    "section": " DETECTION OF LANE AND SPEED BREAKER WARNING SYSTEM FOR AUTONOMOUS VEHICLES USING MACHINE LEARNING ALGORITHM",
+    "text": "DETECTION OF LANE AND SPEED BREAKER WARNING SYSTEM FOR AUTONOMOUS VEHICLES USING MACHINE LEARNING ALGORITHM\nA comprehensive system developed to enhance autonomous vehicle capabilities:\n\nProject Overview: Developed a comprehensive Lane Detection and Speed Breaker Warning System aimed at enhancing the capabilities of autonomous vehicles using advanced machine learning algorithms.\nTechnical Implementation:\n\nUtilized convolutional neural networks (CNNs) for lane detection\nImplemented machine learning model for speed breaker detection\nDeveloped real-time camera input analysis system\nCreated proactive vehicle adjustment mechanisms\n\nKey Features:\n\nLane boundary identification and tracking\nSpeed breaker detection across various types and conditions\nAutomated warning system for detected obstacles\nDynamic vehicle speed and suspension adjustment\nReal-time processing and response system\n\nAchievements:\n\nSuccessfully conducted extensive simulations and real-world testing\nAchieved significant improvements in lane-keeping accuracy\nEnhanced responsiveness to speed breakers\nContributed to overall safety and reliability of autonomous vehicles\nImproved handling of diverse road conditions\n\nImpact:\n\nEnhanced autonomous vehicle safety\nImproved road condition adaptability\nAdvanced machine learning implementation\nPractical real-world application"
   },
   {
     "objectID": "index.html#president-of-indian-student-association",
