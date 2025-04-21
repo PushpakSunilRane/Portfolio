@@ -97,34 +97,77 @@ June 2020 - August 2020
 ## <i class="fas fa-shopping-cart"></i> E-commerce Website
 
 A full-stack e-commerce platform developed using PHP, MySQL, HTML, CSS, and Bootstrap. The project features:
-- User authentication and profile management
-- Product catalog with search and filtering
-- Shopping cart functionality
-- Order processing and tracking
-- Admin dashboard for inventory management
-- Responsive design for mobile and desktop users
+
+- **User Experience**: Implemented secure user authentication and profile management system
+- **Product Management**: Created a dynamic product catalog with advanced search and filtering capabilities
+- **Shopping Features**: Developed shopping cart functionality with real-time updates and secure checkout process
+- **Admin Dashboard**: Built a comprehensive admin interface for inventory management and order tracking
+- **Responsive Design**: Ensured seamless experience across all devices with mobile-first approach
+- **Performance**: Optimized database queries and implemented caching for faster page loads
 :::
 
 ::: project-item
 ## <i class="fas fa-car"></i> Speed Breaker & Lane Detection using Machine Learning
 
 An advanced computer vision project for autonomous vehicles that:
-- Utilizes OpenCV and TensorFlow for real-time detection
-- Implements YOLO (You Only Look Once) algorithm for object detection
-- Processes video feeds to identify speed breakers and lane markings
-- Achieved 92% accuracy in speed breaker detection
-- Integrated with vehicle control systems for automated speed adjustment
+
+- **Technology Stack**: Utilized OpenCV and TensorFlow for real-time detection
+- **Algorithm Implementation**: Implemented YOLO (You Only Look Once) algorithm for efficient object detection
+- **Core Features**: 
+  - Real-time video feed processing
+  - Accurate speed breaker detection (92% accuracy)
+  - Lane marking identification and tracking
+  - Integration with vehicle control systems
+- **Technical Achievements**:
+  - Optimized model for real-time performance
+  - Implemented multi-threading for parallel processing
+  - Developed custom data augmentation pipeline
+  - Created comprehensive testing framework
 :::
 
 ::: project-item
-## <i class="fas fa-chart-line"></i> Data Analysis Dashboard
+## <i class="fas fa-robot"></i> AI Chatbot for Customer Service
 
-A comprehensive data visualization project that:
-- Analyzes and visualizes large datasets using Python and R
-- Implements interactive dashboards using Tableau
-- Performs statistical analysis and predictive modeling
-- Generates automated reports and insights
-- Features real-time data updates and custom filtering options
+An intelligent customer support system that:
+
+- **Core Technology**: Built using Natural Language Processing and Machine Learning
+- **Key Features**:
+  - Natural language understanding
+  - Context-aware responses
+  - Multi-language support
+  - Integration with existing CRM systems
+- **Performance Metrics**:
+  - 85% accuracy in query resolution
+  - 40% reduction in response time
+  - 24/7 automated support capability
+- **Technical Implementation**:
+  - Custom-trained language model
+  - Real-time sentiment analysis
+  - Automated response generation
+  - Continuous learning from user interactions
+:::
+
+::: project-item
+## <i class="fas fa-mobile-alt"></i> Mobile App Development
+
+A cross-platform mobile application that:
+
+- **Technology Stack**: Developed using React Native and Firebase
+- **Key Features**:
+  - Real-time data synchronization
+  - Secure authentication system
+  - Offline functionality
+  - Push notifications
+- **Technical Implementation**:
+  - Optimized performance for both iOS and Android
+  - Implemented secure data encryption
+  - Created efficient caching system
+  - Developed comprehensive testing suite
+- **User Experience**:
+  - Intuitive user interface
+  - Smooth animations and transitions
+  - Responsive design across devices
+  - Accessibility features
 :::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
