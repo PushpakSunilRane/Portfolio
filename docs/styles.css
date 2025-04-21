@@ -6,12 +6,24 @@
 
 /* Color Variables */
 :root {
+    /* Primary Colors */
     --primary-color: #ff4d4d;
     --primary-light: #ff6b6b;
     --primary-lighter: #ff8c8c;
-    --background-light: #fff5f5;
+    
+    /* Background Colors */
+    --background-main: #f8f9fa;
+    --background-section: #ffffff;
+    --background-hover: #fff5f5;
+    
+    /* Text Colors */
     --text-dark: #2c3e50;
-    --shadow-color: rgba(255, 77, 77, 0.1);
+    --text-light: #ffffff;
+    
+    /* Accent Colors */
+    --accent-border: #ff4d4d;
+    --accent-shadow: rgba(255, 77, 77, 0.1);
+    --accent-hover: #ff6b6b;
 }
 
 /* Global Styles */
@@ -19,7 +31,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%);
+    background: linear-gradient(135deg, var(--background-main) 0%, #e9ecef 50%, #dee2e6 100%);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -61,12 +73,12 @@ h3 {
     display: flex;
     align-items: center;
     gap: 40px;
-    background: #ffffff;
+    background: var(--background-section);
     padding: 40px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 10px 30px var(--shadow-color);
-    border: 1px solid var(--shadow-color);
+    box-shadow: 0 10px 30px var(--accent-shadow);
+    border: 1px solid var(--accent-shadow);
 }
 
 .profile-section {
@@ -79,7 +91,7 @@ h3 {
     height: 200px;
     border-radius: 50%;
     border: 5px solid var(--primary-color);
-    box-shadow: 0 10px 20px var(--shadow-color);
+    box-shadow: 0 10px 20px var(--accent-shadow);
     transition: all 0.3s ease;
 }
 
@@ -107,18 +119,19 @@ h3 {
 
 /* Section Styles */
 section {
-    background: #ffffff;
+    background: var(--background-section);
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 40px;
-    box-shadow: 0 5px 15px var(--shadow-color);
+    box-shadow: 0 5px 15px var(--accent-shadow);
     transition: all 0.3s ease;
-    border: 1px solid var(--shadow-color);
+    border: 1px solid var(--accent-shadow);
 }
 
 section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px var(--shadow-color);
+    box-shadow: 0 8px 20px var(--accent-shadow);
+    background: var(--background-hover);
 }
 
 /* Skills Section */
@@ -129,11 +142,17 @@ section:hover {
 }
 
 .skill-category {
-    background: #ffffff;
+    background: var(--background-section);
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px var(--shadow-color);
-    border: 1px solid var(--shadow-color);
+    box-shadow: 0 5px 15px var(--accent-shadow);
+    border: 1px solid var(--accent-shadow);
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    background: var(--background-hover);
+    transform: translateY(-3px);
 }
 
 .skill-category h3 {
@@ -145,11 +164,11 @@ section:hover {
 
 /* Experience Section */
 .experience-item {
-    background: #ffffff;
+    background: var(--background-section);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px var(--shadow-color);
+    box-shadow: 0 5px 15px var(--accent-shadow);
     border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -157,22 +176,24 @@ section:hover {
 .experience-item:hover {
     transform: translateX(5px);
     border-left: 4px solid var(--primary-light);
+    background: var(--background-hover);
 }
 
 /* Project Section */
 .project-item {
-    background: #ffffff;
+    background: var(--background-section);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px var(--shadow-color);
+    box-shadow: 0 5px 15px var(--accent-shadow);
     transition: all 0.3s ease;
-    border: 1px solid var(--shadow-color);
+    border: 1px solid var(--accent-shadow);
 }
 
 .project-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px var(--shadow-color);
+    box-shadow: 0 8px 20px var(--accent-shadow);
+    background: var(--background-hover);
 }
 
 /* List Styles */
