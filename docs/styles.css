@@ -1,0 +1,247 @@
+/* Modern Portfolio Template Styles */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+/* Global Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --dark-bg: #2d2d2d;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+/* Introduction Section */
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.profile-section {
+    flex: 0 0 250px;
+    text-align: center;
+}
+
+.profile-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.profile-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+}
+
+.contact-info {
+    margin-top: 1.5rem;
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.contact-info a:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+/* Skills Section */
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-category {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Experience Section */
+.experience-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+.experience-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.project-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Leadership Section */
+.leadership-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+.leadership-item:hover {
+    transform: translateX(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Icons */
+.section-icon {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+ul li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-section {
+        margin-bottom: 2rem;
+    }
+
+    .skills-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animation Effects */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+} 

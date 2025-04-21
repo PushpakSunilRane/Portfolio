@@ -13,7 +13,9 @@ format:
 ![](profile.jpg)
 
 ::: contact-info
-<a href="mailto:prane1@csuchico.edu" title="Email"><i class="fas fa-envelope"></i></a> <a href="https://linkedin.com/in/pushpak-sunil-rane" title="LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/PushpakSunilRane" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="mailto:prane1@csuchico.edu" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://linkedin.com/in/pushpak-sunil-rane" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/PushpakSunilRane" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 ::::
 
@@ -34,34 +36,34 @@ Data Science & Analytics graduate student at California State University, Chico 
 ::: skill-category
 ## <i class="fas fa-desktop"></i> Software
 
--   Microsoft Word, Excel, PowerPoint
--   Google Drive
--   RStudio
--   Jupyter
--   PowerBI
+- Microsoft Word, Excel, PowerPoint
+- Google Drive
+- RStudio
+- Jupyter
+- PowerBI
 :::
 
 ::: skill-category
 ## <i class="fas fa-code"></i> Programming
 
--   Web Development
--   PHP
--   Python
--   Core Java
--   MySQL
--   C, C++
--   R
--   SQL
+- Web Development
+- PHP
+- Python
+- Core Java
+- MySQL
+- C, C++
+- R
+- SQL
 :::
 
 ::: skill-category
 ## <i class="fas fa-chart-bar"></i> Data Science & Analysis
 
--   Data collection
--   Data Cleaning
--   Data pre-processing
--   Data visualization
--   Statistical analysis
+- Data collection
+- Data Cleaning
+- Data pre-processing
+- Data visualization
+- Statistical analysis
 :::
 ::::::
 
@@ -73,9 +75,9 @@ Data Science & Analytics graduate student at California State University, Chico 
 **PHP Intern (Interim lead of Web Development)**\
 December 2022 – March 2023
 
--   Assisted in data collection and analysis for neuromarketing projects
--   Conducted preliminary data analysis to identify trends and insights
--   Developed a website to present findings and create reports
+- Assisted in data collection and analysis for neuromarketing projects
+- Conducted preliminary data analysis to identify trends and insights
+- Developed a website to present findings and create reports
 :::
 
 ::: experience-item
@@ -84,9 +86,9 @@ December 2022 – March 2023
 **Web Developer Intern**\
 June 2020 - August 2020
 
--   Developed web applications using HTML, CSS, Bootstrap, and PHP
--   Created small-scale projects including TO-DO list, Calculator, and Clone webpage
--   Enhanced user interface and experience
+- Developed web applications using HTML, CSS, Bootstrap, and PHP
+- Created small-scale projects including TO-DO list, Calculator, and Clone webpage
+- Enhanced user interface and experience
 :::
 
 # <i class="fas fa-project-diagram section-icon"></i> Projects
@@ -94,67 +96,85 @@ June 2020 - August 2020
 ::: project-item
 ## <i class="fas fa-shopping-cart"></i> E-commerce Website
 
--   Designed and implemented static webpages for each module
--   Utilized SEO best practices to improve site visibility
--   Collaborated with stakeholders to deliver a user-friendly interface
+A full-stack e-commerce platform developed using PHP, MySQL, HTML, CSS, and Bootstrap. The project features:
+- User authentication and profile management
+- Product catalog with search and filtering
+- Shopping cart functionality
+- Order processing and tracking
+- Admin dashboard for inventory management
+- Responsive design for mobile and desktop users
 :::
 
 ::: project-item
 ## <i class="fas fa-car"></i> Speed Breaker & Lane Detection using Machine Learning
 
--   Conducted data collection and pre-processing for machine learning models
--   Trained models to detect speed breakers and lane markings
--   Integrated solution into autonomous vehicle system
+An advanced computer vision project for autonomous vehicles that:
+- Utilizes OpenCV and TensorFlow for real-time detection
+- Implements YOLO (You Only Look Once) algorithm for object detection
+- Processes video feeds to identify speed breakers and lane markings
+- Achieved 92% accuracy in speed breaker detection
+- Integrated with vehicle control systems for automated speed adjustment
+:::
+
+::: project-item
+## <i class="fas fa-chart-line"></i> Data Analysis Dashboard
+
+A comprehensive data visualization project that:
+- Analyzes and visualizes large datasets using Python and R
+- Implements interactive dashboards using Tableau
+- Performs statistical analysis and predictive modeling
+- Generates automated reports and insights
+- Features real-time data updates and custom filtering options
 :::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
 
-::: experience-item
+::: leadership-item
 ## <i class="fas fa-user-tie"></i> President of Indian Student Association
 
 **Present**
 
--   Organized cultural, social, and professional events
--   Led 7-member executive board
--   Managed large-scale events like Holi
+- Organized cultural, social, and professional events
+- Led 7-member executive board
+- Managed large-scale events like Holi
 :::
 
-::: experience-item
+::: leadership-item
 ## <i class="fas fa-handshake"></i> Global Ally at International Education & Global Engagement
 
 **Present**
 
--   Supported international student orientation and mentoring
--   Provided guidance on academic resources and campus life
--   Assisted with cultural integration initiatives
+- Supported international student orientation and mentoring
+- Provided guidance on academic resources and campus life
+- Assisted with cultural integration initiatives
 :::
 
-::: experience-item
+::: leadership-item
 ## <i class="fas fa-hands-helping"></i> National Services Scheme
 
 **August 2022 – July 2024**
 
--   Organized and managed community service events
--   Developed public speaking and communication skills
--   Planned and executed successful events
+- Organized and managed community service events
+- Developed public speaking and communication skills
+- Planned and executed successful events
 :::
 
-::: experience-item
+::: leadership-item
 ## <i class="fas fa-users-cog"></i> Committee Member of Skill & Progressive Association
 
 **November 2018 – May 2021**
 
--   Managed and hosted events
--   Coordinated team activities
--   Enhanced public speaking abilities
+- Managed and hosted events
+- Coordinated team activities
+- Enhanced public speaking abilities
 :::
 
-::: experience-item
+::: leadership-item
 ## <i class="fas fa-user-shield"></i> Leadership Club Head
 
 **July 2023 – June 2024**
 
--   Led team of 10 members
--   Organized leadership workshops
--   Developed club engagement strategies
+- Led team of 10 members
+- Organized leadership workshops
+- Developed club engagement strategies
 :::
