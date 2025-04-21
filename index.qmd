@@ -94,35 +94,76 @@ June 2020 - August 2020
 # <i class="fas fa-project-diagram section-icon"></i> Projects
 
 ::: project-item
-## <i class="fas fa-shopping-cart"></i> E-commerce Website
+## <i class="fas fa-chart-line"></i> The Relationship between Child Nutrition Status and Economic Indicators in Global Regions
 
-A full-stack e-commerce platform developed using PHP, MySQL, HTML, CSS, and Bootstrap. The project features:
+A comprehensive data analysis project examining global health and economic correlations:
 
-- **User Experience**: Implemented secure user authentication and profile management system
-- **Product Management**: Created a dynamic product catalog with advanced search and filtering capabilities
-- **Shopping Features**: Developed shopping cart functionality with real-time updates and secure checkout process
-- **Admin Dashboard**: Built a comprehensive admin interface for inventory management and order tracking
-- **Responsive Design**: Ensured seamless experience across all devices with mobile-first approach
-- **Performance**: Optimized database queries and implemented caching for faster page loads
+- **Project Objective**: Examines the relationship between child nutrition status and economic indicators in global regions, focusing on how economic factors influence adolescent nutrition outcomes.
+
+- **Research Methodology**:
+  - Utilized datasets from UNICEF, WHO, and World Bank
+  - Implemented comprehensive data analysis techniques
+  - Applied statistical modeling for correlation analysis
+  - Ensured data integrity and validation
+
+- **Key Variables Analyzed**:
+  - Child nutrition status indicators
+  - Undernourishment levels
+  - Population living below $1.90 per day threshold
+  - Regional economic indicators
+
+- **Findings & Analysis**:
+  - Identified strong positive correlation (0.85) between undernourishment and poverty
+  - Analyzed regional variations in nutrition outcomes
+  - Evaluated economic impact on child health
+  - Documented key patterns and trends
+
+- **Impact & Recommendations**:
+  - Highlighted importance of economic development
+  - Identified need for policy interventions
+  - Suggested targeted approaches for vulnerable populations
+  - Provided framework for future research
+
+- **Skills Applied**:
+  - Advanced data analysis
+  - Statistical modeling
+  - Research methodology
+  - Data visualization
+  - Report writing
 :::
 
 ::: project-item
-## <i class="fas fa-car"></i> Speed Breaker & Lane Detection using Machine Learning
+## <i class="fas fa-car"></i> DETECTION OF LANE AND SPEED BREAKER WARNING SYSTEM FOR AUTONOMOUS VEHICLES USING MACHINE LEARNING ALGORITHM
 
-An advanced computer vision project for autonomous vehicles that:
+A comprehensive system developed to enhance autonomous vehicle capabilities:
 
-- **Technology Stack**: Utilized OpenCV and TensorFlow for real-time detection
-- **Algorithm Implementation**: Implemented YOLO (You Only Look Once) algorithm for efficient object detection
-- **Core Features**: 
-  - Real-time video feed processing
-  - Accurate speed breaker detection (92% accuracy)
-  - Lane marking identification and tracking
-  - Integration with vehicle control systems
-- **Technical Achievements**:
-  - Optimized model for real-time performance
-  - Implemented multi-threading for parallel processing
-  - Developed custom data augmentation pipeline
-  - Created comprehensive testing framework
+- **Project Overview**: Developed a comprehensive Lane Detection and Speed Breaker Warning System aimed at enhancing the capabilities of autonomous vehicles using advanced machine learning algorithms.
+
+- **Technical Implementation**:
+  - Utilized convolutional neural networks (CNNs) for lane detection
+  - Implemented machine learning model for speed breaker detection
+  - Developed real-time camera input analysis system
+  - Created proactive vehicle adjustment mechanisms
+
+- **Key Features**:
+  - Lane boundary identification and tracking
+  - Speed breaker detection across various types and conditions
+  - Automated warning system for detected obstacles
+  - Dynamic vehicle speed and suspension adjustment
+  - Real-time processing and response system
+
+- **Achievements**:
+  - Successfully conducted extensive simulations and real-world testing
+  - Achieved significant improvements in lane-keeping accuracy
+  - Enhanced responsiveness to speed breakers
+  - Contributed to overall safety and reliability of autonomous vehicles
+  - Improved handling of diverse road conditions
+
+- **Impact**:
+  - Enhanced autonomous vehicle safety
+  - Improved road condition adaptability
+  - Advanced machine learning implementation
+  - Practical real-world application
 :::
 
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience

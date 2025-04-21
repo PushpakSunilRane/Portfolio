@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #2c3e50;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -22,9 +22,17 @@ h1 {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 15px;
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 h1:after {
@@ -34,22 +42,27 @@ h1:after {
     left: 0;
     width: 50px;
     height: 3px;
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
 }
 
 h2 {
     color: #2c3e50;
     font-weight: 600;
     margin-top: 30px;
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
 }
 
 h3 {
     color: #ff4d4d;
     font-weight: 500;
     margin-top: 20px;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Introduction Section */
@@ -57,7 +70,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 40px;
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 50%, #ffe5e5 100%);
     padding: 40px;
     border-radius: 15px;
     margin-bottom: 40px;
@@ -74,7 +87,8 @@ h3 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #ff4d4d;
+    border: 5px solid transparent;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c) border-box;
     box-shadow: 0 10px 20px rgba(255, 77, 77, 0.2);
     transition: transform 0.3s ease;
 }
@@ -92,18 +106,22 @@ h3 {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #ff4d4d;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #ff6b6b;
     transform: translateY(-3px);
+    background: linear-gradient(45deg, #ff6b6b, #ff8c8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Section Styles */
 section {
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 50%, #ffe5e5 100%);
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 40px;
@@ -115,6 +133,7 @@ section {
 section:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
+    background: linear-gradient(135deg, #ffffff 0%, #ffe5e5 50%, #ffd6d6 100%);
 }
 
 /* Skills Section */
@@ -125,7 +144,7 @@ section:hover {
 }
 
 .skill-category {
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 50%, #ffe5e5 100%);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
@@ -136,28 +155,30 @@ section:hover {
     color: #ff4d4d;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #ff4d4d;
+    border-bottom: 2px solid transparent;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b) border-box;
 }
 
 /* Experience Section */
 .experience-item {
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 50%, #ffe5e5 100%);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: 0 5px 15px rgba(255, 77, 77, 0.1);
-    border-left: 4px solid #ff4d4d;
+    border-left: 4px solid transparent;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b) border-box;
     transition: all 0.3s ease;
 }
 
 .experience-item:hover {
-    border-left: 4px solid #ff6b6b;
     transform: translateX(5px);
+    background: linear-gradient(135deg, #ffffff 0%, #ffe5e5 50%, #ffd6d6 100%);
 }
 
 /* Project Section */
 .project-item {
-    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 50%, #ffe5e5 100%);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -169,6 +190,7 @@ section:hover {
 .project-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(255, 77, 77, 0.15);
+    background: linear-gradient(135deg, #ffffff 0%, #ffe5e5 50%, #ffd6d6 100%);
 }
 
 /* List Styles */
@@ -185,7 +207,10 @@ ul li {
 
 ul li:before {
     content: '•';
-    color: #ff4d4d;
+    color: transparent;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: absolute;
     left: 0;
     font-size: 20px;
@@ -193,7 +218,9 @@ ul li:before {
 
 /* Section Icons */
 .section-icon {
-    color: #ff4d4d;
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-right: 10px;
     font-size: 24px;
 }
@@ -231,20 +258,18 @@ section {
 }
 
 /* Additional Gradient Effects */
-.section-icon {
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .experience-item h3 {
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
 }
 
 .project-item h3 {
-    background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+    background: linear-gradient(45deg, #ff4d4d, #ff6b6b, #ff8c8c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
 }
