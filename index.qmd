@@ -125,51 +125,6 @@ An advanced computer vision project for autonomous vehicles that:
   - Created comprehensive testing framework
 :::
 
-::: project-item
-## <i class="fas fa-robot"></i> AI Chatbot for Customer Service
-
-An intelligent customer support system that:
-
-- **Core Technology**: Built using Natural Language Processing and Machine Learning
-- **Key Features**:
-  - Natural language understanding
-  - Context-aware responses
-  - Multi-language support
-  - Integration with existing CRM systems
-- **Performance Metrics**:
-  - 85% accuracy in query resolution
-  - 40% reduction in response time
-  - 24/7 automated support capability
-- **Technical Implementation**:
-  - Custom-trained language model
-  - Real-time sentiment analysis
-  - Automated response generation
-  - Continuous learning from user interactions
-:::
-
-::: project-item
-## <i class="fas fa-mobile-alt"></i> Mobile App Development
-
-A cross-platform mobile application that:
-
-- **Technology Stack**: Developed using React Native and Firebase
-- **Key Features**:
-  - Real-time data synchronization
-  - Secure authentication system
-  - Offline functionality
-  - Push notifications
-- **Technical Implementation**:
-  - Optimized performance for both iOS and Android
-  - Implemented secure data encryption
-  - Created efficient caching system
-  - Developed comprehensive testing suite
-- **User Experience**:
-  - Intuitive user interface
-  - Smooth animations and transitions
-  - Responsive design across devices
-  - Accessibility features
-:::
-
 # <i class="fas fa-users section-icon"></i> Leadership & Volunteer Experience
 
 ::: experience-item
